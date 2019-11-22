@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Start Maine Rulez */
+ 
+ body{height:4000px}
+ .container {
+	  width:1350px; margin:auto;}
+
+ .clearfix {clear:both}
+	  
+	  /* end Maine Rulez */
+	  
+	  /*header*/
+	  
+ .slider {height:600px; background-image:url(../images/slider.jpg); background-size: cover;  }
+ .slider .intro { text-align:center; padding-top:200px; }
+ .slider .intro h1 {margin: 0px auto; width: 620px;font-size: 35px ; border-bottom: 4px solid#fff; border-top: 4px solid#fff; color:#FFF ; padding:5px;}
+ .slider .intro button { background:none; color:#FFF; margin-top:30px; padding:10px; font-size:20px; font-weight:bold; border:2px solid #FFF }
+ .navbar {background-color:#333; color:#FFF; overflow:hidden;}
+ .navbar h2 {float:left; padding-left:150px;}
+ .navbar h2 span { color:#2ECC71}
+ .navbar ul {list-style:none; padding-left:0; overflow:hidden; float:right; padding-right:50px;}
+ .navbar ul li {float:left; padding:10px; text-transform:uppercase;}
+ .navbar ul li a { color:#FFF; text-decoration:none; }
+ .navbar ul li.active a,
+ .navbar ul li a:hover{ color:#2ECC71}
+
+ 
+        /* end header*/
+		
+		/* sec1*/
+
+ .sec1 .feat {float:left; width:30% ; height:200px; padding-top:50px; padding-bottom:20px;overflow:hidden; padding-left:45px; }
+ .sec1 .feat h2 {text-transform:uppercase; color:#666}
+ .sec1 .feat p {color:#999; line-height:1.4; text-align:justify;}
+ 
+       /*End sec1*/
+	   
+	   /* sec2*/
+ 
+ .sec2{background-color:#F2F2F2;float:left; overflow:hidden}
+ .sec2 .img {float:left; width:40%;}
+ .sec2 .img imag {width:100%}
+ .sec2 .info {float:left; width:60% ;}
+ .sec2 .info h2 {margin:15px; color:#666; padding-top:20px;}
+ .sec2 .info h3 {margin:15px; color:#2ECC71;}
+ .sec2 .info p {margin:15px; color:#999; line-height:1.5; }
+ .sec2 .info .data {overflow:hidden; margin:15px; }
+ .sec2 .info .data > div {float:left; width:50% ; min-height:100px;}	   
+ 
+	   /*End sec2*/
+	   
+	   /* sec3*/
+ .sec3 .skills { width:40%}
+ .sec3 .skills h2 { color:#666; padding-top:20px; margin-left:80px;}
+ .sec3 .skills p {margin-left:80px; color:#999; line-height:1.5;} 
+ .sec3 .skills button { background:none; color:#2ECC71; padding:5px 15px; font-size:20px;  border:2px solid #2ECC71;margin-left:80px;
+  margin-bottom:20px; margin-top:45px;}
+ .sec3 .skills, .sec3 .prog { float:left;overflow:hidden}  
+ .sec3 .prog {width:60%;margin-top:25px ; margin-bottom:45px}
+ .sec3 .prog .tec { width:90% ; margin-left:45px; }
+ .sec3 .prog .tec h3 {color:#666}
+ .sec3 .prog .tec div { background:#F2F2F2;height:25px ; margin-left:0}
+ .sec3 .prog .tec div span { background:#2ECC71; height:25px ; display:block ; color:#FFF ; text-align:right ; line-height:25px; font-weight:bold}
+ 
+	   /*End sec3*/
+	   
+	   /* sec4*/
+ .sec4 {background-color:#F2F2F2; padding-top:30px; padding-bottom:30px ; text-align:center; float:left; overflow:hidden}
+ .sec4 .resume h2 {color:#666; }
+ .sec4 .resume p {margin-left:100px ; margin-right:100px; color:#999;line-height:1.5}
+ .sec4 .resume button {background:none; color:#2ECC71; padding:5px 15px; font-size:20px;  border:2px solid #2ECC71; margin-top:15px; margin-bottom:20px;}
+	 
+	   /*End sec4*/
+	   
+	  /* sec5*/
+ .sec5 .edu,
+ .sec5 .exp  {width:50%; float:left ;overflow:hidden}
+ .sec5 .edu h2 {color:#666; padding-top:20px; margin-left:80px;}
+ .sec5 .edu p {margin-left:80px; color:#999; line-height:1.5;}
+ .sec5 .exp h3 {margin-top:89px; margin-bottom:10px;color:#666}
+ .sec5 .exp span {display:block; margin-bottom:10px}
+ .sec5 .exp span:first-of-type {color:#999}
+ .sec5 .exp span:last-of-type {background-color:#2ECC71; color:#FFF; display:inline-block; padding:4px 10px;}
+ .sec5 .exp hr {background-color:#999; height:1px; border:0; margin-right:250px; margin-left:0}
+ .sec5 .exp p { color:#999;line-height:1.5}
+ .sec5 hr {background-color:#999; height:1px; border:0; margin-right:50px;  margin-left:50px}
+ .sec5 .work,
+ .sec5 .exp2 {width:50%; float:left;overflow:hidden}
+ .sec5 .work h2 {color:#666; padding-top:20px; margin-left:80px;} 
+ .sec5 .work p {margin-left:80px; color:#999; line-height:1.5;}
+ .sec5 .exp2 h3 {margin-top:89px; margin-bottom:10px;color:#666}
+ .sec5 .exp2 span {display:block; margin-bottom:10px}
+ .sec5 .exp2 span:first-of-type {color:#999}
+ .sec5 .exp2 span:last-of-type {background-color:#2ECC71; color:#FFF; display:inline-block; padding:4px 10px;}
+ .sec5 .exp2 hr {background-color:#999; height:1px; border:0; margin-right:250px;  margin-left:0}
+ .sec5 .exp2 p { color:#999;line-height:1.5; margin-bottom:50px}
+	   /*End sec5*/  
+	   
+	  	   /* sec6*/
+ .sec6 {background-color:#F2F2F2; padding-top:30px; padding-bottom:30px ; text-align:center; float:left; overflow:hidden}
+ .sec6 .test p {margin-left:100px ; margin-right:100px; color:#999;line-height:1.5 ; font-style:italic;}
+ .sec6 .test h3 { color:#666} 
+ .sec6 .test ul { text-align:center; list-style:none; padding-left:0;}
+ .sec6 .test ul li {width:15px ; height:15px; border:2px solid #2ECC71 ; display:inline-block; cursor:pointer;}
+ .sec6 .test ul li.active ,
+ .sec6 .test ul li:hover {background-color:#2ECC71} 
+ 
+	   /*End sec6*/ 
+	   
+	   /* sec7*/
+ .sec7 {padding-top:50px; padding-bottom:70px;}
+ .sec7 .port {text-align:center; float:left; overflow:hidden}
+ .sec7 .port h2 { color:#666; margin-top:50px;}
+ .sec7 .port p {margin-left:100px; color:#999; line-height:1.5;margin-right:100px}
+ .sec7 .our-work {overflow:hidden}
+ .sec7 .our-work > div {float:left ; width:33.33333%  ; margin-bottom:10px ; }
+ .sec7 .our-work > div img {width:75% ; margin:50px ;margin-right:100px; margin-left:55px ; padding:3px ; background-color:#FFF; border:2px solid #CCC;}
+          /* end sec 7 */
+		  
+		  /* sec8*/
+ .sec8 {background-color:#252f31; color:#FFF ; float:left ; overflow:hidden}
+ .sec8 .contact,
+ .sec8 .form {float:left; overflow:hidden; padding-top:30px; padding-bottom:30px ;}
+ .sec8 .contact h2 {color: #FFF; padding-top:20px; margin-left:80px;} 
+ .sec8 .contact p { margin-left:80px; color:#999; line-height:1.5;}
+ .sec8 .contact p strong{color: #d1d6fa} 
+ .sec8 .form {width:40%; float:left; margin-left:200px; margin-top:40px}
+ .sec8 .form lable {display:block; color:#d1d6fa; margin-bottom:10px;}
+ .sec8 .form input[type="text"] {background-color:#4B5557; color:#FFF; border:0; padding:7px; width:90%; margin-bottom:10px }
+ .sec8 .form textarea {background-color:#4B5557; color:#FFF; border:0; padding:7px; width:90%; margin-bottom:10px; height:100px; }
+ .sec8 .form input[type="submit"]{background-color: #191E22; padding: 10px 20px; color: #fff; border: 0; margin-top:10px;}
+ 	   /* end sec 8 */
+	   
+	   /*footer*/
+	   
+ .footer {background-color:#191e22; color:#CCC ; text-align:center; padding-top:20px; }	   
+ .footer ul { list-style:none ; padding-left:0 ; text-align:center;}
+ .footer ul li { display:inline-block;}
+ .footer ul li img {width:24px; padding-bottom:20px}
+/* Start Maine Rulez */
